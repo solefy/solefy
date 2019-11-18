@@ -15,8 +15,9 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Appru</title>
-	<script src="https://kit.fontawesome.com/b4c9f50fe9.js" crossorigin="anonymous"></script>
+	<title>Pricing</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto:400,400i,500" rel="stylesheet">
 	<!--
 			CSS
 			============================================= -->
@@ -40,11 +41,21 @@
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
-						<li class="menu-active"><a href="index.html">Inicio</a></li>
-						<li><a href="#features">Sobre</a></li>
-						<li><a href="#pricing">Preço</a></li>
-						<li><a href="https://medium.com/solefy">Blog</a></li>
-						<li><a href="contact.html">Contato</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li class="menu-active"><a href="pricing.html">Pricing</a></li>
+						<li class="menu-has-children"><a href="">Pages</a>
+							<ul>
+								<li><a href="elements.html">Elements</a></li>
+							</ul>
+						</li>
+						<li class="menu-has-children"><a href="">Blog</a>
+							<ul>
+								<li><a href="blog-home.html">Blog Home</a></li>
+								<li><a href="blog-single.html">Blog Single</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -53,119 +64,40 @@
 	<!-- end header Area -->
 
 	<!-- start banner Area -->
-	<section class="home-banner-area">
+	<section class="banner-area">
 		<div class="container">
-			<div class="row fullscreen d-flex align-items-center justify-content-between">
-				<div class="home-banner-content col-lg-6 col-md-6">
-					<h1>
-						Solefy <br> Gerencie seu projeto solar
-					</h1>
-					<p>Software para dimensionamento e elaboração de propostas comerciais, sendo uma ótima ferramenta para o mercado e utilizada pelas principais empresas de engenharia do Brasil.</p>
-					<div class="download-button d-flex flex-row justify-content-start">
-						<div class="buttons dark flex-row d-flex">
-							<div class="desc">
-									<i class="fab fa-windows"></i>
-								<a href="#">
-									<p>
-										<span>Download</span> <br>
-										Para teste
-									</p>
-								</a>
-							</div>
-						</div>
+			<div class="row banner-content">
+				<div class="col-lg-12 d-flex align-items-center justify-content-between">
+					<div class="left-part">
+						<h1>
+							Pricing Plans
+						</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua.
+						</p>
+					</div>
+					<div class="right-part">
+						<a href="index.html">home</a>
+						<span class="fa fa-caret-right"></span>
+						<a href="pricing.html">pricing</a>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-6">
-					<img class="img-fluid" src="img/maodeobra.png" alt="">
-				</div>
 			</div>
+		</div>
 		</div>
 	</section>
 	<!-- End banner Area -->
 
-	<!-- Start fact Area -->
-	<section class="fact-area">
-		<div class="container">
-			<div class="fact-box">
-				<div class="row align-items-center">
-					<div class="col single-fact">
-						<h2>100K+</h2>
-						<p>Downloads</p>
-					</div>
-					<div class="col single-fact">
-						<h2>10K+</h2>
-						<p>Positive Reviews</p>
-					</div>
-					<div class="col single-fact">
-						<h2>50K+</h2>
-						<p>Daily Visitors</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End fact Area -->
-
-	<!-- Start feature Area -->
-	<section class="feature-area section-gap-top" id="features">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title text-center">
-						<h2>Features</h2>
-						<p>Algumas das ferramentas internas de nosso sistema que irão possibilitar levar sua empresa ao próximo nível.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="single-feature">
-						<a href="#" class="title">
-							<img class="img-fluid" src="img/maodeobra.png" alt="">
-							<h3>Mão de Obra</h3>
-						</a>
-						<p>
-							Calcule examente o custo da mao de obra de implantação por funcionario.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-feature">
-						<a href="#" class="title">
-							<img class="img-fluid" src="img/payback.png" alt="">
-							<h3>Calculo de Payback</h3>
-						</a>
-						<p>
-							Com base nas ultimas faturas do seu cliente, elabore o tempo de retorno do investimento para ele.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-feature">
-						<a href="#" class="title">
-							<img class="img-fluid" src="img/fatura 2.png" alt="">
-							<h3>Dados da instalação</h3>
-						</a>
-						<p>
-							Controle todos os criterios de instalação por cliente e use para refinar sua instalação.
-						</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!-- End feature Area -->
-
 	<!-- Start Pricing Area -->
-	<section class="pricing-area" id="pricing">
+	<section class="pricing-area pricing-page">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-6">
 					<div class="section-title text-center">
-						<h2>Preços</h2>
-						<p>Escolha o plano mais interessante para o seu bolso.
+						<h2>Suitable Pricing Plans</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua.
 						</p>
 					</div>
 				</div>
@@ -176,11 +108,11 @@
 					<div class="single-price">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
-								<h4>Mensal</h4>
+								<h4>Standard</h4>
 								<p>For the <br>individuals</p>
 							</div>
 							<div class="top-right">
-								<h1>R$120</h1>
+								<h1>£199</h1>
 							</div>
 						</div>
 						<div class="end-sec">
@@ -188,8 +120,10 @@
 								<li>2.5 GB Free Photos</li>
 								<li>Secure Online Transfer Indeed</li>
 								<li>Unlimited Styles for interface</li>
+								<li>Reliable Customer Service</li>
+								<li>Manual Backup Provided</li>
 							</ul>
-							<button class="primary-btn price-btn mt-20">Comprar</button>
+							<button class="primary-btn price-btn mt-20">Purchase Plan</button>
 						</div>
 					</div>
 				</div>
@@ -197,11 +131,11 @@
 					<div class="single-price">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
-								<h4>Semestral</h4>
+								<h4>Business</h4>
 								<p>For <br>small Company</p>
 							</div>
 							<div class="top-right">
-								<h1>R$680</h1>
+								<h1>£399</h1>
 							</div>
 						</div>
 						<div class="end-sec">
@@ -209,8 +143,10 @@
 								<li>2.5 GB Free Photos</li>
 								<li>Secure Online Transfer Indeed</li>
 								<li>Unlimited Styles for interface</li>
+								<li>Reliable Customer Service</li>
+								<li>Manual Backup Provided</li>
 							</ul>
-							<button class="primary-btn price-btn mt-20">Comprar</button>
+							<button class="primary-btn price-btn mt-20">Purchase Plan</button>
 						</div>
 					</div>
 				</div>
@@ -218,11 +154,11 @@
 					<div class="single-price">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
-								<h4>Anual</h4>
+								<h4>Ultimate</h4>
 								<p>For <br>large Company</p>
 							</div>
 							<div class="top-right">
-								<h1>R$1200</h1>
+								<h1>£499</h1>
 							</div>
 						</div>
 						<div class="end-sec">
@@ -230,8 +166,10 @@
 								<li>2.5 GB Free Photos</li>
 								<li>Secure Online Transfer Indeed</li>
 								<li>Unlimited Styles for interface</li>
+								<li>Reliable Customer Service</li>
+								<li>Manual Backup Provided</li>
 							</ul>
-							<button class="primary-btn price-btn mt-20">Comprar</button>
+							<button class="primary-btn price-btn mt-20">Purchase Plan</button>
 						</div>
 					</div>
 				</div>
@@ -240,6 +178,54 @@
 		</div>
 	</section>
 	<!-- End Pricing Area -->
+
+	<!-- Start about Area -->
+	<section class="about-area">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 home-about-right home-about-right2">
+					<h1>
+						We Believe that <br>
+						Interior beautifies the <br>
+						Total Architecture
+					</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua.Ut
+						enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+					</p>
+					<div class="download-button d-flex flex-row justify-content-start">
+						<div class="buttons flex-row d-flex">
+							<i class="fa fa-apple" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="#">
+									<p>
+										<span>Available</span> <br>
+										on App Store
+									</p>
+								</a>
+							</div>
+						</div>
+						<div class="buttons dark flex-row d-flex">
+							<i class="fa fa-android" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="#">
+									<p>
+										<span>Available</span> <br>
+										on Play Store
+									</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 home-about-left">
+					<img class="img-fluid" src="img/iphone.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End about Area -->
 
 	<!-- Start Footer Area -->
 	<footer class="footer-area section-gap">
@@ -283,7 +269,7 @@
 				</div>
 				<div class="col-lg-4 col-md-6 single-footer-widget">
 					<h4>Newsletter</h4>
-					<p>Receba os melhores conteudos para a sua empresa,</p>
+					<p>You can trust us. we only send promo offers,</p>
 					<div class="form-wrap" id="mc_embed_signup">
 						<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
 						 method="get" class="form-inline">
@@ -301,17 +287,28 @@
 			</div>
 			<div class="footer-bottom row align-items-center">
 				<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Solefy
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 				<div class="col-lg-6 col-md-6 social-link">
 					<div class="download-button d-flex flex-row justify-content-end">
 						<div class="buttons gray flex-row d-flex">
-								<i class="fab fa-windows"></i>
+							<i class="fa fa-apple" aria-hidden="true"></i>
 							<div class="desc">
 								<a href="#">
 									<p>
-										<span>Download</span> <br>
-										Teste
+										<span>Available</span> <br>
+										on App Store
+									</p>
+								</a>
+							</div>
+						</div>
+						<div class="buttons gray flex-row d-flex">
+							<i class="fa fa-android" aria-hidden="true"></i>
+							<div class="desc">
+								<a href="#">
+									<p>
+										<span>Available</span> <br>
+										on Play Store
 									</p>
 								</a>
 							</div>
